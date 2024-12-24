@@ -1,0 +1,263 @@
+@media (min-width: 320px) and (max-width: 376px) {
+    .navbar-nav {
+      
+      font-size: 14px; /* Adjust font size for small screens */
+    }
+
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .hero-section {
+      padding:40px 0px;
+      text-align: left;
+    }
+    .animated-letter{
+      font-size: 20px;
+    }
+    .role{
+      font-size: 20px ;
+    }
+    .btn-primary{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .btn-warning{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+      
+    }
+    .programmer-img {
+      width: 100%;
+     padding-top: 70px; /* Adjust the image size */
+      
+    }
+
+    .icon-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .icon {
+      width: 40px; /* Smaller icons for mobile */
+      margin: 10px;
+    }
+    .my-80{
+      margin: 10px 0px  !important;
+    }
+    .programmer-day{
+      padding: 0px;
+    }
+    .py-5{
+      padding: 20px 0px !important;
+    }
+    
+    .card{
+      margin: 0px;
+    }
+    .btn-outline-info{
+      display: none ;
+    }
+    .mt-10{
+      margin: 0px;
+    }
+    .internship-card{
+   width: 98%;
+   text-align: justify;
+   padding: 4px;
+   padding-bottom: 20PX;
+    }
+    .modal-dialog {
+      max-width: 100%; /* Full width for mobile */
+      margin: 0; /* Remove margin */
+    }
+  
+    .modal-body img {
+      width: 100%; /* Ensure image is fully responsive */
+      height: auto;
+    }
+    .projects{
+      margin-top: 20px;
+    }
+    .certificate-section{
+     margin-top: 0px !important;
+    }
+    .panel-container{
+      display: none !important;
+     }
+     .panel{
+      display: none !important;
+     }
+     #internship-experience{
+      margin-top: 30px !important;
+     }
+     .internship-Experience{
+     padding: 0px;
+     }
+     .internship-card{
+      width: 100%;
+      padding: 20px 0px ;
+      text-align: justify;
+    }
+  }
+
+  /* For mobile (377px - 419px) */
+  @media (min-width: 377px) and (max-width: 419px) {
+    .navbar-nav {
+    
+      font-size: 16px; /* Adjust font size for better readability */
+    }
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .hero-section {
+      padding:40px 0px;
+      text-align: left;
+    }
+    .programmer-day{
+      padding: 0px;
+    }
+    .animated-letter{
+      font-size: 20px;
+    }
+    .role{
+      font-size: 20px ;
+    }
+    .programmer-img {
+      width: 100%;
+     padding-top: 70px; /* Adjust the image size */
+      
+    }
+    .btn-primary{
+      padding: 10px  12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .btn-warning{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .card{
+      margin: 0px;
+    }
+    .projects{
+      margin-top: 20px;
+    }
+    .certificate-section{
+      margin-top: 0px !important;
+     }
+     #internship-experience{
+      margin-top: 30px !important;
+     }
+     .internship-Experience{
+      padding: 0px;
+      }
+      .internship-card{
+        width: 100%;
+        padding: 20px 0px ;
+        text-align: justify;
+      } .panel{
+        display: none !important;
+       }
+  }
+
+  /* For mobile (420px - 576px) */
+  @media (min-width: 420px) and (max-width: 576px) {
+    .navbar-nav {
+    
+      font-size: 16px; /* Adjust font size */
+    }
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .hero-section {
+      padding:40px 0px;
+      text-align: left;
+    }
+    .programmer-day{
+      padding: 0px;
+    }
+    .programmer-img {
+      width: 100%;
+     padding-top: 70px; /* Adjust the image size */
+      
+    }
+    .mt-10{
+      margin-top: 0px;
+    }
+    .animated-letter{
+      font-size: 20px;
+    }
+    .role{
+      font-size: 20px ;
+    }
+    .btn-primary{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .btn-warning{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .card{
+      margin: 0px;
+    }
+    .projects{
+      margin-top: 20px;
+    }
+    .certificate-section{
+      margin-top: 0px !important;
+     }
+     .panel-container{
+      display: none !important;
+     }
+     #internship-experience{
+      margin-top: 30px !important;
+     }
+     .internship-Experience{
+      padding: 0px;
+      }
+      .internship-card{
+        width: 100%;
+        padding: 20px 0px ;
+        text-align: justify;
+      }
+      .panel{
+        display: none !important;
+       }
+  }
+
+  /* For tablets (768px to 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+    
+    }
+  }
+
+  /* For desktops (992px and up) */
+  @media (min-width: 992px) {
+    .navbar-nav {
+      display: flex;
+      justify-content: center; /* Center items on desktop */
+    }
+    .navbar-collapse {
+      justify-content: center;
+    }
+    .Mobile-view{
+      display: none !important;
+    }
+  }
